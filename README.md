@@ -75,6 +75,6 @@ What's unique:
 - Out-of-order "streaming" is in R&D
 - The whole system is setup with streaming in mind
 - Data is tree-shaken
-- JS is not sent to the client until events occur
+- JS is not sent to the client until events occurs
 
 
