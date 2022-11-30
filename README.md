@@ -76,5 +76,13 @@ What's unique:
 - The whole system is setup with streaming in mind
 - Data is tree-shaken
 - JS is not sent to the client until events occurs
+- Has React bridge to use with Qwik to leverage features like lazy-hydration (islands)
+- 
 
+Q&A
+Are there any gql libraries/bridges to use with Qwik?
+Not specifically. A lot of work has been done to lazy load the app, and then
+usage of hooks like useClientEffect() basically negate those lazy features.
 
+What is the future looking like for resumability and hydration models?
+THe next few years will contain most likely new developments in patterns that move away from patterns of the past.
